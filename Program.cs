@@ -19,9 +19,6 @@ namespace Extenstion_Method
 	{
 		static void Main()
 		{
-			//  
-			// Use the string extension method on this value.  
-			//  
 			string value = Console.ReadLine();
 			value = value.UppercaseFirstLetter();
 			Console.WriteLine(value);
